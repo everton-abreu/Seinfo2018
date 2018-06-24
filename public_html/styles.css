@@ -305,8 +305,8 @@ a img{
 }
 
 .zora-letreiro-band-text {
+    margin: auto auto;
     max-width: 800px;
-    margin-left: 25%;
     padding: 24px;
     text-align: left;
     color: white;
@@ -769,6 +769,19 @@ a img{
   .rounded-0 {
     border-radius: 0 !important;
   }
-  
-  
-  
+  .cespecial3.text-table{
+      position: relative !important;
+      margin: 0px -19px !important;
+      margin-top: -12px !important;
+      padding: 12px 0px;
+      border: 1px solid black;
+
+  }
+  .abertura {
+      padding-top: 0px !important;
+  }
+
+  .center {
+      position: relative;
+      margin: 0px auto;
+  }
