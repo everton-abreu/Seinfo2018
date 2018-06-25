@@ -697,8 +697,8 @@ a img{
 /*Cronograma*/
 /*Meio-periodo*/
 .cm1{background-color: #a4c2f4 !important;}
-.cm2{}
-.cm3{}
+.cm2{background-color: #a16276 !important;}
+.cm3{background-color: #a16276 !important;}
 /*Integral*/
 .ci1{background-color: #f9cb9c !important;}
 .ci2{background-color: #93c47d !important;}
@@ -713,12 +713,13 @@ a img{
 .cespecial1{background-color: #ffd966 !important;}
 .cespecial2{background-color: #bf9000 !important;}
 .cespecial3{background-color: #f1c232 !important;}
-.cvago{background-color: #b6d7a8 !important;}
+.cvago{background-color: #ffffff !important;}
 .cpalestra{background-color: #3c78d8 !important;}
 /*Modals*/
 .mdl-dialog-card-image{
     border-radius: 10%;
     margin-bottom: 10px;
+    width: 160px;
 }
 
 .team-member {
@@ -772,7 +773,7 @@ a img{
   .cespecial3.text-table{
       position: relative !important;
       margin: 0px -19px !important;
-      margin-top: -12px !important;
+      margin-top: -1px !important;
       padding: 12px 0px;
       border: 1px solid black;
 
@@ -785,3 +786,35 @@ a img{
       position: relative;
       margin: 0px auto;
   }
+  td {
+      -webkit-border-before: 1px solid black;
+  }
+  .mdl-nbutton {
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    color: rgb(0,0,0);
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    display: inline-block;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle; }
+
+.cursor{
+    cursor: pointer;
+}
