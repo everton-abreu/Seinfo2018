@@ -655,6 +655,17 @@ a img{
     margin-left: 40px;
 }
 
+.logoHaken{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-image: url('images/haken.png');
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 40px;
+}
+
 .android-card-container {
 }
 
