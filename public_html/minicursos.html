@@ -24,11 +24,13 @@
                     <!-- Add spacer, to align navigation to the right in desktop -->
                     <div class="zora-header-spacer mdl-layout-spacer"></div>
                     <!-- Navigation -->
-                    <div class="zora-navigation-container">
-                        <nav class="zora-navigation mdl-navigation">
+                    <div class="zora-navigation-container mdl-layout--large-screen-only">
+                      <nav class="zora-navigation mdl-navigation">
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./index.html">Home</a>
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./inscricao.html">Inscrições</a>
+                            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./trabalhos.html">Trabalhos</a>
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./cronograma.html">Cronograma</a>
+                            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./gameJam.html">Game&nbsp;Jam</a>
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Minicursos</a>
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./comissoes.html">Comissões</a>
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./historico.html">Histórico</a>
@@ -48,8 +50,9 @@
                     <a class="mdl-navigation__link" href="">Aguarde liberação</a>
                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./index.html">Home</a>
                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./inscricao.html">Inscrições</a>
-                    <a class="mdl-navigation__link mdl-typography--text-uppercase" href="trabalhos.html">Trabalhos</a>
+                    <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./trabalhos.html">Trabalhos</a>
                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./cronograma.html">Cronograma</a>
+                    <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./gameJam.html">Game&nbsp;Jam</a>
                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Minicursos</a>
                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./comissoes.html">Comissões</a>
                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./historico.html">Histórico</a>
@@ -271,13 +274,13 @@
                                 </div>
                                 <!-- MiniCurso 06 -->
                                 <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-                                  <!--
+                                  
                                   <div class="mdl-card__media">
-                                    <img src="">
+                                    <img src="./images/minicursos/phaser.jpg">
                                   </div>
-                                  -->
+                                  
                                   <div class="mdl-card__title">
-                                     <h4 class="mdl-card__title-text"> Desenvolvimento de Jogos </h4>
+                                     <h4 class="mdl-card__title-text"> Jogos com Phaser</h4>
                                   </div>
                                   <div class="mdl-card__supporting-text">
                                     <span class="mdl-typography--font-light mdl-typography--subhead">Um Motor de Jogos (Game Engine) é um conjunto de ferramentas que permite simplificar e abstrair o desenvolvimento de jogos digitais e aplicações com gráficos em tempo real. Motores de jogos tipicamente fornecem um motor gráfico para renderização gráfica 2D/3D, um motor de física para simulação de corpos, forças e tratamento de colisões, uma ferramenta de criação de animações e eventos, bem como, gerenciadores de sons, comportamentos dos personagens, serviços de rede, memória e arquivos. Os motorores permitem a construção da logica dos jogos, bem como sua própria estensão, por meio de linguagens de programação conhecidas, como C++, C# e JavaScript.</span>
@@ -325,22 +328,38 @@
                                 </div>
                                 <!-- MiniCurso 08 -->
                                 <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-                                    <div class="mdl-card__media">
-                                      <img src="images/minicursos/tensor.png">
-                                    </div>
-                                    <div class="mdl-card__title">
-                                        <h4 class="mdl-card__title-text"> TensorFlow </h4>
-                                    </div>
-                                    <div class="mdl-card__supporting-text">
-                                      <span class="mdl-typography--font-light mdl-typography--subhead">TensorFlow é uma biblioteca de código aberto para aprendizado de máquina aplicável a uma ampla variedade de tarefas. É um sistema para criação e treinamento de redes neurais para detectar e decifrar padrões e correlações, análogo (mas não igual) à forma como humanos aprendem e raciocinam. Ele é usado tanto para a pesquisa quanto produção no Google, e está aos poucos substituindo seu antecessor de código proprietário, DistBelief. TensorFlow foi desenvolvido pela equipe Google Brain para uso interno na empresa. Foi lançado sob a licença de código aberto Apache 2.0 em 9 de novembro de 2015.</span>
-                                    </div>
-                                    <div class="mdl-card__title">
-                                        <h4 class="mdl-card__title-text">por Juliano Foleiss</h4>
-                                    </div>
-                                    <div class="mdl-card__supporting-text">
-                                      <span class="mdl-typography--font-light mdl-typography--subhead">Possui graduação em ciência da computacão pela Universidade Estadual de Maringá e mestrado em Ciência da Computação pela Universidade Estadual de Maringá. Atualmente é professor da Universidade Tecnológica Federal do Paraná.</span>
-                                    </div>
+                                  <div class="mdl-card__media">
+                                    <img src="images/minicursos/git.png">
                                   </div>
+                                  <div class="mdl-card__title">
+                                      <h4 class="mdl-card__title-text">  Git + Github </h4>
+                                  </div>
+                                  <div class="mdl-card__supporting-text">
+                                    <span class="mdl-typography--font-light mdl-typography--subhead">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. Já o GitHub é uma plataforma de hospedagem de código fonte que usa o Git para controle de versões. Ele permite que programadores contribuam em projetos privados e Open Source de qualquer lugar do mundo. Também é amplamente utilizado por desenvolvedores para divulgação de seus trabalhos ou para que outros contribuam num projeto. Juntas, essas ferramentas dão grande poder ao desenvolvedor, desde um pequeno projeto pessoal até um grande projeto desenvolvido por múltiplos colaboradores.</span>
+                                  </div>
+                                  <div class="mdl-card__title">
+                                      <h4 class="mdl-card__title-text">por Giorgio Braz</h4>
+                                  </div>
+
+                                  <div class="mdl-card__media">
+                                    <img src="images/minicursos/giorgio.png">
+                                  </div>
+
+                                  <div class="mdl-card__supporting-text">
+                                    <span class="mdl-typography--font-light mdl-typography--subhead">Estudante de Ciência da Computação, tem interesse por realidade aumentada e interfaces não-convencionais. Amante de café e podcasts, se empolga fácil quando o assunto é macOS ou Doctor Who, além de ser usuário entusiasta de Git e GitHub, brincando um pouco com o GitHub Pages e Jekyll.</span>
+                                  </div>
+                                  <div class="mdl-card__title">
+                                    <h4 class="mdl-card__title-text">por Lucas Ribeiro</h4>
+                                  </div>
+
+                                  <div class="mdl-card__media">
+                                    <img src="images/minicursos/terra.jpg">
+                                  </div>
+
+                                  <div class="mdl-card__supporting-text">
+                                    <span class="mdl-typography--font-light mdl-typography--subhead">Formado no Curso Técnico Integrado em Informática (2013-2016), acadêmico do 4º período de Bacharelado em Ciência da Computação pela UTFPR-CM e entusiasta de Internet das Coisas.</span>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                     </div>
