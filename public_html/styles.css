@@ -829,3 +829,11 @@ a img{
 .cursor{
     cursor: pointer;
 }
+.mdl-card__vg {
+    position: relative;
+    margin-bottom: 13px;
+    text-align: left;
+    width: 50%;
+    margin-left: 30px;
+    margin-right: auto;
+}
